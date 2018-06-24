@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts.user');
 });
 
 
@@ -22,9 +22,6 @@ Route::get('cek',function(){
 
 
 
-Route::get('user',function(){
-	return view('layouts.user');
-});
 	Route::get('boking',function(){
 	return view('layouts.boking');
 });

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- Website template by freewebsitetemplates.com -->
 <head>
-  <title>Products - Sporting Good</title>
+  <title>Boking Car</title>
   <meta charset="utf-8">
   <link href="/assets/user/css/style.css" rel="stylesheet" type="text/css">
   <!--[if IE 7]>
@@ -11,13 +11,12 @@
 <body>
   <div id="header">
     <div>
-      <a href="index.html"><img class="logo" src="/assets/user/images/logo.png" width="477" height="220" alt=""> </a>
       <ul class="navigation">
-        <li>
-          <a href="index.html">Home</a>
+        <li> 
+          <a href="">Home</a>
         </li>
         <li>
-          <a class="active" href="products.html">Data Mobil</a>
+          <a class="active" href="boking">Data Mobil</a>
         </li>
         <li>
           <a href="about.html">About</a>
@@ -33,46 +32,67 @@
       <div id="content">
         <ul class="products">
           <li>
-            <a href="products.html"><img src="/assets/user/images/jazz.jpg" width="294" height="232" alt=""> </a>
+            <a href="boking"><img src="/assets/user/images/jazz.jpg" width="294" height="232" alt=""> </a>
             <p>
-              This is just a place holder
+              HONDA JAZZ
             </p>
-            <span>$ 0.00 </span> <a href="{{route('bil.index')}}"><span>buy</span></a>
+            <span>$ 0.00</span> <a href="bil"><span>BOKING</span></a>
           </li>
           <li>
-            <a href="products.html"><img src="/assets/user/images/shoes.png" width="294" height="232" alt=""> </a>
+            <a href="products.html"><img src="/assets/user/images/rush.jpg" width="294" height="232" alt=""> </a>
             <p>
-              This is just a place holder
+              RUSH
             </p>
-            <span>$ 0.00 </span> <a href="products.html"><span>buy</span></a>
+            <span>$ 0.00 </span> <a href="products.html"><span>BOKING</span></a>
           </li>
           <li>
-            <a href="products.html"><img src="/assets/user/images/telescope.png" width="294" height="232" alt=""> </a>
+            <a href="products.html"><img src="/assets/user/images/fortuner.jpg" width="294" height="232" alt=""> </a>
             <p>
-              This is just a place holder
+              FORTUNER
             </p>
-            <span>$ 0.00 </span> <a href="products.html"><span>buy</span></a>
+            <span>$ 0.00 </span> <a href="products.html"><span>BOKING</span></a>
           </li>
           <li>
-            <a href="products.html"><img src="/assets/user/images/gadget.png" width="294" height="232" alt=""> </a>
+            <a href="products.html"><img src="/assets/user/images/xpander.jpg" width="294" height="232" alt=""> </a>
             <p>
-              This is just a place holder
+              XPANDER
             </p>
-            <span>$ 0.00 </span> <a href="products.html"><span>buy</span></a>
+            <span>$ 0.00 </span> <a href="products.html"><span>BOKING</span></a>
           </li>
           <li>
-            <a href="products.html"><img src="/assets/user/images/damble.png" width="294" height="232" alt=""> </a>
+            <a href="products.html"><img src="/assets/user/images/alphard.jpg" width="294" height="232" alt=""> </a>
             <p>
-              This is just a place holder
+              ALPHARD
             </p>
-            <span>$ 0.00 </span> <a href="products.html"><span>buy</span></a>
+            <span>$ 0.00 </span> <a href="products.html"><span>BOKING</span></a>
           </li>
           <li>
-            <a href="products.html"><img src="/assets/user/images/meter.png" width="294" height="232" alt=""> </a>
+            <a href="products.html"><img src="/assets/user/images/Avanza.jpg" width="294" height="232" alt=""> </a>
             <p>
-              This is just a place holder
+              AVANZA
             </p>
-            <span>$ 0.00 </span> <a href="products.html"><span>buy</span></a>
+            <span>$ 0.00 </span> <a href="products.html"><span>BOKING</span></a>
+          </li>
+          <li>
+            <a href="products.html"><img src="/assets/user/images/civic.jpg" width="294" height="232" alt=""> </a>
+            <p>
+              HONDA CIVIC
+            </p>
+            <span>$ 0.00 </span> <a href="products.html"><span>BOKING</span></a>
+          </li>
+          <li>
+            <a href="products.html"><img src="/assets/user/images/pajero.jpg" width="294" height="232" alt=""> </a>
+            <p>
+              pajero
+            </p>
+            <span>$ 0.00 </span> <a href="products.html"><span>BOKING</span></a>
+          </li>
+          <li>
+            <a href="products.html"><img src="/assets/user/images/vios.jpg" width="294" height="232" alt=""> </a>
+            <p>
+              VIOS
+            </p>
+            <span>$ 0.00 </span> <a href="products.html"><span>BOKING</span></a>
           </li>
         </ul>
       </div>

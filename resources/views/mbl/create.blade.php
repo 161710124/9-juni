@@ -58,7 +58,7 @@ Add
                         <label class="control-label">Jenis</label>
                           <br>
                         <label class="radio-inline">
-                            <input type="radio" name="jenis" id="inlineRadio1" value="Matic">Matic
+                            <input type="radio" name="jenis" id="inlineRadio1" value="MVP">MVP
                         </label><br>
                         <label class="radio-inline">
                             <input type="radio" name="jenis" id="inlineRadio2" value="Sedan">Sedan

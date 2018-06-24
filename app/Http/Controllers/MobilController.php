@@ -65,6 +65,8 @@ class MobilController extends Controller
     {
         $mobil = mobil::findOrFail($id);
         return view('mbl.show',compact('mobil'));
+        $mobil = mobil::findOrFail($id);
+        return view('layouts.boking',compact('mobil'));
     }
 
     /**

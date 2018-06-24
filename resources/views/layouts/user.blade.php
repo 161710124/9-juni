@@ -14,10 +14,10 @@
 			<a href="index.html"><img class="logo" src="/assets/user/images/" width="477" height="220" alt=""> </a>
 			<ul class="navigation">
 				<li>
-					<a class="active" href="index.html">Home</a>
+					<a class="active" href="user">Home</a>
 				</li>
 				<li>
-					<a href="products.html">Products</a>
+					<a href="boking">Data Mobil</a>
 				</li>
 				<li>
 					<a href="about.html">About</a>
@@ -33,7 +33,7 @@
 			<ul>
 				<li class="first">
 					<h2>Perjalanan Aman Nyaman</h2>
-					<a href="index.html" class="button">Book Now!</a>
+					<a href="boking" class="button">Book Now!</a>
 				</li>
 				<li>
 					<a href="index.html"><img src="/assets/user/images/wifi.png" width="75" height="62" alt=""></a>
