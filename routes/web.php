@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('layouts.user');
+    return view('frontend.index');
 });
 
 
@@ -20,11 +20,12 @@ Route::get('cek',function(){
 	return view('layouts.admin');
 });
 
+Route::get('/boking', 'frontendController@index')->name('boking');
 
 
-	Route::get('boking',function(){
-	return view('layouts.boking');
-});
+// 	Route::get('boking',function(){
+// 	return view('frontend.boking');
+// });
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

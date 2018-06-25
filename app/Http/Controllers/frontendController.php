@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\mobil;
+use App\boking;
+use App\galeri;
 
 class frontendController extends Controller
 {
@@ -14,8 +16,9 @@ class frontendController extends Controller
      */
     public function index()
     {
+        $book=boking::all();
         $mobil=mobil::all();
-        return view('layouts.user',compact('mobil'));
+        return view('frontend.boking',compact('book','mobil'));
     }
 
     /**
@@ -25,7 +28,7 @@ class frontendController extends Controller
      */
     public function create()
     {
-        //
+        return view('frontend.index');
     }
 
     /**
@@ -36,7 +39,20 @@ class frontendController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request,[
+            'tanggal_boking' => 'required',
+            'nama' => 'required',
+            'alamat' => 'required',
+            'no_hp' => 'required',
+            'id_mobil' => 'required'
+        ]);
+        $front = new boking;
+        $front->tanggal_boking = $request->tanggal_boking;
+        $front->nama = $request->nama;
+        $front->alamat = $request->alamat;
+        $front->no_hp = $request->no_hp;
+        $front->id_mobil = $request->id_mobil;
+        return redirect()->route('frontend.index');
     }
 
     /**

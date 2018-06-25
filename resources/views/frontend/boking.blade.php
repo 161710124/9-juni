@@ -32,11 +32,26 @@
       <div id="content">
         <ul class="products">
           <li>
-            <a href="boking"><img src="/assets/user/images/jazz.jpg" width="294" height="232" alt=""> </a>
+            <!-- <a href="boking"><img src="/assets/user/images/jazz.jpg" width="294" height="232" alt=""> </a> -->
             <p>
-              HONDA JAZZ
+              @php $no = 1; @endphp
+              @foreach($mobil as $data)
+              <tr>
+              <td><img src="../img/{{ $data->galeri->foto, $data->foto }}" style="max-height:150px;max-width:150px;margin-top:7px;"><br></td><a href="{{ route('bk.create') }}"><span>BOKING</span></a><br>
+              <td>nama : {{ $data->nama }}<br></td>
+              <td>plat no : {{ $data->plat_no }}<br></td>
+              <td>kapasitas : {{ $data->kapasitas }}<br></td>
+              <td>harga : {{ $data->harga }}<br></td>
+              <td>jenis : {{ $data->jenis }}<br></td>
+              <td>warna :{{ $data->warna }}<br></td>
+              <td>tahun :{{ $data->tahun }}<br></td>
+              <td>type : {{ $data->type }}<br></td>
+            </tr>
+              
+@endforeach
+
             </p>
-            <span>$ 0.00</span> <a href="bil"><span>BOKING</span></a>
+            <!-- <span></span> <a href="bil"><span>BOKING</span></a>
           </li>
           <li>
             <a href="products.html"><img src="/assets/user/images/rush.jpg" width="294" height="232" alt=""> </a>
@@ -94,7 +109,7 @@
             </p>
             <span>$ 0.00 </span> <a href="products.html"><span>BOKING</span></a>
           </li>
-        </ul>
+        </ul> -->
       </div>
     </div>
   </div>
